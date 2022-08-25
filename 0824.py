@@ -64,3 +64,59 @@
 #     print('불고기버거')
 # else:
 #     print('잘못입력하셨습니다')
+
+import turtle as t
+
+# def qua(x,y,h,color)
+#     t1.ht()
+#     t1.speed(8)
+#     t1.up()
+#     t1.goto(x,y)
+#     t1.down()
+#     t1.color(color)
+#     t1.begin_fill()
+#     for i in range(2):
+#         t1.fd(w)
+#         t1.it(90)
+#         t1.fd(h)
+#         t1.it(90)
+#     t1.end_fill()
+
+# def draw(x,y):
+#     t1=t.goto(x,y)
+#
+# t1=t.Turtle()
+# t1.pensize(10)
+# t.onscreenclick(draw)
+#
+# t.onkey(t.penup, "Up")
+# t.onkey(t.pendown(), "Down")
+# t.listen()
+
+import turtle as t
+
+def t_up():
+    t1.seth(90)
+    t1.forward(10)
+
+def t_down():
+    t1.seth(270)
+    t1.forward(10)
+
+def t_right():
+    t1.seth(0)
+    t1.forward(10)
+
+def t_left():
+    t1.seth(180)
+    t1.forward(10)
+
+t1=t.Turtle()
+t1.pensize(10)
+
+t.onkey(t_up, "Up")
+t.onkey(t_down, "Down")
+t.onkey(t_right, "Right")
+t.onkey(t_left, "Left")
+
+t.listen()
