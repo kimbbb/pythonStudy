@@ -39,7 +39,7 @@
 #
 # print(pizza(a)*2)
 # print(pizza(b))
-
+#
 # rate=int(input())
 # hour=int(input())
 #
