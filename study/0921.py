@@ -62,7 +62,7 @@ for i in range(5):
         [37.52860, 126.93431], tooltip='여의도 한강공원',
         icon=folium.Icon(color='pink', icon='home', prefix='fa')
     ).add_to(map_y)
-map_y.save("D:\pyStudy\map.html")
+map_y
 
 lat1, log1=37.52860, 126.93431 #여의도 한강 공원
 lat2, log2=37.52400, 126.91889 #여의도 공원

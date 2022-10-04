@@ -8,12 +8,12 @@ import matplotlib.pyplot as plt
 # plt.plot(month,sales,color='red', )
 # plt.show()
 
-sales=[1,5,7,3,7]
-month=['mar', 'apr','may', 'jun','jul']
-plt.rc('font', family='Malgun Gothic')
-plt.title('월별 판매 실적')
-plt.bar(month,sales,color='b')
-plt.show()
+# sales=[1,5,7,3,7]
+# month=['mar', 'apr','may', 'jun','jul']
+# plt.rc('font', family='Malgun Gothic')
+# plt.title('월별 판매 실적')
+# plt.bar(month,sales,color='b')
+# plt.show()
 
 # sales=[1,2,3,3,3,5,7,7,8,10]
 # plt.hist(sales,bins=30)
