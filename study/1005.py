@@ -139,14 +139,26 @@
 #
 # print(sum)
 
-a = input().split()
-count=0
-for i in range(15):
-    print(a[i])
-    # if a[i]==0:
-    #     a.pop()
-    # if a[i]//a[i]==1:
-    #     count+=1
-print(count)
+# a = input().split()
+# count=0
+# for i in range(15):
+#     print(a[i])
+#     # if a[i]==0:
+#     #     a.pop()
+#     # if a[i]//a[i]==1:
+#     #     count+=1
+# print(count)
 
+count=0
+A=int(input())
+B=int(input())
+C=int(input())
+sum=A+B
+while True:
+    count+=sum//C
+    sum=sum%C+sum//C
+
+    if sum<C:
+        break
+print(count)
 
